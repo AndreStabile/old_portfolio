@@ -11,55 +11,120 @@
     <!-- Bootstrap core CSS -->
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font importing -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/index.scss" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="container">
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav>
-            </div>
-          </header>
-
-          <main role="main" class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-            </p>
-          </main>
-
-          <footer class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </footer>
-
+    <header class="container">
+      <nav class="d-flex mt-1">
+        <div class="">
+          <a class="nav-link pl-1 brand" href="/"><h3 class="mt-2">andré's works</h3></a>
         </div>
+        <div class="nav-item text-uppercase text-left font-weight-bold align-self-center">
+          <a class="nav-link active" href="#">Projects</a>
+        </div>
+        <div class="nav-item text-uppercase font-weight-bold align-self-center">
+          <a class="nav-link" href="#">Profile</a>
+        </div>
+        <div class="mr-auto nav-item text-uppercase font-weight-bold align-self-center">
+          <a class="nav-link"  href="#">Contact</a>
+        </div>
+        <div class="nav-item font-weight-bold align-self-center ml-auto">
+          <a class="nav-link"  href="#">email@email.com</a>
+        </div>
+      </nav>
+    </header>
 
+    <section class="container">
+      <div class="icons">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-3 offset-md-1 col-lg-3 offset-lg-1 ">
+            <div class="row justify-content-center">
+              <img src="images/ux.png">
+            </div>
+            <div class="row justify-content-center">
+              <span class="text-center">UX</span>
+            </div>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+            <div class="row justify-content-center">
+              <img src="images/ui.png">
+            </div>
+            <div class="row justify-content-center">
+              <span class="text-center">UI</span>
+            </div>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+            <div class="row justify-content-center">
+              <img src="images/develop.png">
+            </div>
+            <div class="row justify-content-center">
+              <span class="text-justify">Develop</span>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-    </div>
+    <div class="divider"><hr></div>
+
+    <section class="container">
+      <div class="icons">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/ux.png">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/ui.png">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/develop.png">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/develop.png">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/ui.png">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="row justify-content-center">
+              <img src="images/ux.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="d-flex">
+        <div class="p-2">Twitter</div>
+        <div class="mr-auto p-2">E-mail</div>
+        <div class="p-2">&copy; 2017 | André Stábile | Todos os direitos reservados</div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../node_modules/bootstrap/dist/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

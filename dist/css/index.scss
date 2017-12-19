@@ -1,0 +1,102 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+body {
+  color: #333;
+  text-align: center;
+  font-family: 'Quicksand', cursive;
+}
+
+/*
+ * Header
+ */
+
+.brand {
+  font-family: 'Vibur', sans-serif;
+}
+
+.nav-item > .nav-link.active {
+  border-bottom: 2px solid red;
+  margin-top: 2px;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Content
+ */
+
+.icons img {
+  width: 10rem;
+  height: 10rem;
+}
+
+@media (max-width: 62rem) {
+  .icons img {
+    width: 7rem;
+    height: 7rem;
+  }  
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  color: #333;
+  position: fixed;
+  bottom: 0;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  header {
+    position: fixed;
+    top: 0;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Handle the widths */
+  header,
+  footer {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  header,
+  footer {
+    width: 42rem;
+  }
+}
