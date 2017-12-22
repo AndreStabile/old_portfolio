@@ -2,6 +2,32 @@
  * Globals
  */
 
+/* Fonts */
+@font-face {
+  font-family: Quicksand Regular;
+  src: url(../../lib/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: Quicksand Light;
+  src: url(../../lib/fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: Quicksand Medium;
+  src: url(../../lib/fonts/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: Quicksand Bold;
+  src: url(../../lib/fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+  font-family: Vibur;
+  src: url(../../lib/fonts/Vibur-Regular.ttf);
+}
+
 /* Links */
 a,
 a:focus,
