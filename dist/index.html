@@ -26,13 +26,13 @@
           <a class="nav-link pl-1 brand" href="index.html"><h3 class="mt-2">andré's works</h3></a>
         </div>
         <div class="nav-item text-uppercase text-left font-weight-bold align-self-center">
-          <a class="nav-link active" href="#">Projects</a>
+          <a class="nav-link active" href="#projects">Projects</a>
         </div>
         <div class="nav-item text-uppercase font-weight-bold align-self-center">
-          <a class="nav-link" href="#">Profile</a>
+          <a class="nav-link" href="#profile">Profile</a>
         </div>
         <div class="mr-auto nav-item text-uppercase font-weight-bold align-self-center">
-          <a class="nav-link"  href="#">Contact</a>
+          <a class="nav-link" href="mailto:arquiduqueandre@gmail.com">Contact</a>
         </div>
       </nav>
     </header>
@@ -59,8 +59,10 @@
       </div>
     </section>
 
+    <a href="teste.js">AAA</a>
+
     <div class="divider text-center my-5">
-      <span class="divider-text p-4">Projects</span>
+      <span class="divider-text p-4" id="projects">Projects</span>
     </div>
 
     <section class="container">
@@ -111,7 +113,7 @@
     </section>
 
     <div class="divider text-center my-5">
-      <span class="divider-text p-4">Profile</span>
+      <span class="divider-text p-4" id="profile">Profile</span>
     </div>
 
     <section class="container">
@@ -167,13 +169,30 @@
       </div>
     </section>
 
+    <button onclick="backToTop()" id="backToTop" title="Back to top"><i class="fal fa-chevron-up"></i></button>
+
     <footer class="container pt-5">
       <div class="d-flex">
-        <div class="p-2 align-self-center"><i class="fab fa-twitter"></i></div>
-        <div class="mr-auto p-2 align-self-center"><i class="fas fa-envelope"></i></div>
+        <div class="p-2 align-self-center">
+          <a href="https://twitter.com/andxtreme" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="p-2 align-self-center">
+          <a href="https://instagram.com/stabile7" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="mr-auto p-2 align-self-center">
+          <a href="mailto:arquiduqueandre@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
         <div class="text-left font-weight-bold align-self-center p-2">&copy; 2017 | André Stábile | Todos os direitos reservados</div>
       </div>
     </footer>
+
+    <script src="js/backToTop.js"></script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
