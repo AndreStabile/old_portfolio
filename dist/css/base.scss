@@ -1,0 +1,23 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+body {
+  color: #333;
+  text-align: center;
+  font-family: 'Quicksand', cursive;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a,
+a:focus,
+a:hover {
+  color: #333;
+}

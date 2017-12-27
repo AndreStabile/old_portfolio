@@ -1,0 +1,48 @@
+/*
+ * Visual
+ */
+
+#backToTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 0.5rem; /* Place the button at the bottom of the page */
+  right: 0.5rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #333; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0.75rem; /* Some padding */
+  border-radius: 0.5rem; /* Rounded corners */
+}
+
+.divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-style: inset;
+  background-color:#ccc; 
+  border-width:0; 
+  color:#000000; 
+  height:1px; 
+  line-height:0; 
+  width:40%;
+}
+
+.divider-text {
+  background-color: #fafafa;
+  font-size: 1.5rem;
+}
+
+.project-cover {
+  height: 20rem;
+  width: 100%;
+}
+
+.no-gutter-left {
+  margin-left: 0;
+  padding-left: 0;
+}

@@ -1,0 +1,33 @@
+/*
+ * Media
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  header {
+    top: 0;
+  }
+  footer {
+    bottom: 0;
+  }
+
+  /* Handle the widths */
+  header,
+  footer {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  header,
+  footer {
+    width: 42rem;
+  }
+}
+
+@media (max-width: 62rem) {
+  .icons img {
+    width: 7rem;
+    height: 7rem;
+  }  
+}

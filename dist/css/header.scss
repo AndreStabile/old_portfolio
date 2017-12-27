@@ -1,0 +1,19 @@
+/*
+ * Header
+ */
+
+.brand {
+  font-family: 'Vibur', sans-serif;
+}
+
+.nav-item > .nav-link {
+  width: 0%;
+  transition: width .25s;
+
+  &:hover {
+    border-bottom: 2px solid #333;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: auto;
+  }
+}
