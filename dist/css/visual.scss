@@ -35,6 +35,7 @@
 .divider-text {
   background-color: #fafafa;
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .project-cover {
@@ -45,4 +46,8 @@
 .no-gutter-left {
   margin-left: 0;
   padding-left: 0;
+}
+
+.header-text {
+  font-weight: 500;
 }
